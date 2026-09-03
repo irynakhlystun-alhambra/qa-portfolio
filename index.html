@@ -1,1 +1,159 @@
 Add portfolio homepage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="QA Engineer portfolio website">
+  <title>QA Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">QA<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">QUALITY ASSURANCE • TEST AUTOMATION</p>
+          <h1>Hi, I'm <span>Alex</span>.<br>QA Engineer.</h1>
+          <p class="hero-text">
+            I help teams deliver reliable software through thoughtful testing,
+            automation, and continuous quality improvement.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="terminal">
+            <p><span>$</span> whoami</p>
+            <p class="output">QA Engineer</p>
+            <p><span>$</span> focus</p>
+            <p class="output">Quality • Automation • Reliability</p>
+            <p><span>$</span> status</p>
+            <p class="success">● Ready to test</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section-label">01 — ABOUT ME</p>
+        <div class="two-column">
+          <div>
+            <h2>Quality is built,<br>not just checked.</h2>
+          </div>
+          <div>
+            <p>
+              I am a QA Engineer focused on web application testing,
+              test automation, and improving product reliability. I enjoy
+              finding edge cases, building maintainable automated tests,
+              and collaborating with development teams to prevent defects.
+            </p>
+            <p>
+              My approach combines exploratory testing with automation,
+              clear defect reporting, and continuous validation throughout
+              the software development lifecycle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <p class="section-label">02 — SKILLS</p>
+        <h2>Tools & Technologies</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Manual Testing</h3>
+            <ul>
+              <li>Functional & Regression Testing</li>
+              <li>Exploratory Testing</li>
+              <li>Test Case Design</li>
+              <li>Defect Reporting</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Automation</h3>
+            <ul>
+              <li>Selenium WebDriver</li>
+              <li>Playwright</li>
+              <li>Appium</li>
+              <li>API Test Automation</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Jira & Test Management</li>
+              <li>Postman</li>
+              <li>CI/CD</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-label">03 — PROJECTS</p>
+        <h2>Selected QA Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <h3>E-commerce Testing</h3>
+            <p>Functional and regression testing of shopping flows, cart, checkout, and user accounts.</p>
+            <div class="tags"><span>Manual</span><span>Regression</span><span>Web</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>Web Automation Suite</h3>
+            <p>Automated UI scenarios with reusable page objects and stable test execution.</p>
+            <div class="tags"><span>Selenium</span><span>Java</span><span>CI/CD</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>API Validation</h3>
+            <p>API testing covering positive, negative, validation, and authorization scenarios.</p>
+            <div class="tags"><span>Postman</span><span>REST</span><span>API</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact">
+        <p class="section-label">04 — CONTACT</p>
+        <h2>Let's build better software.</h2>
+        <p>Have a project or testing challenge? Feel free to get in touch.</p>
+        <div class="contact-links">
+          <a class="button primary" href="mailto:alex.qa@example.com">Email Me</a>
+          <a class="text-link" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="text-link" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Alex — QA Engineer Portfolio</p>
+    </div>
+  </footer>
+</body>
+</html>
